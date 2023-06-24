@@ -1,0 +1,62 @@
+.wrapper1 {
+    display: flex;
+}
+
+ul.ul1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.ul1,
+.telegramm,
+.phone,
+.viber,
+.whatsapp {
+    width: 260px;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+.ul1 .telegramm {
+    background: #3b5998;
+}
+
+.ul1 .phone {
+    background: #7cff79;
+}
+
+.ul1 .viber {
+    background: #6b00ed;
+}
+
+.ul1 .whatsapp {
+    background: #4dc247;
+}
+
+@media (max-width: 540px) {
+
+    .ul1,
+    .telegramm,
+    .phone,
+    .viber,
+    .whatsapp {
+        width: 220px;
+        height: 40px;
+    }
+}
